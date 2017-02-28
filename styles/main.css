@@ -1,8 +1,13 @@
 body {
-  background:#777;
-  font-family:arial;
+    background-color: #cccccc;
+    font-family:arial;
 }
 
 h1 {
-  colour: #555;
+    font-size: 40px;
+    color: black;
+}
+
+p {
+    font-size: 14px;
 }
