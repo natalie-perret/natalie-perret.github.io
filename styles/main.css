@@ -1,64 +1,89 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
-  margin: 0;
+  font-family: 'arial', serif;
   padding: 0;
   background: #777;
 }
 
-/** header **/
-
-.title {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
 /** navigation bar **/
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+.navbar {
+  background-color: #ffffff;
+  color: #000000
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 0 0;
 }
 
 .navbar li {
-  float: left;
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  font-size: 12px;
 }
 
 .navbar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  color: #000000;
 }
 
 .navbar li a:hover {
-    background-color: #111;
+    color: #clclcl;
+}
+
+/** logo **/
+
+.navbar .logo {
+  color: black;
+  float: left;
+  padding: 0 20px 0 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /** banner **/
 
-.container-banner {
-  text-align: center;
-  background: black;
-  color: white;
-  padding: 20;
-  margin: 50;
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner .banner-image {
+  width: 100%;
+  display: block;
 }
 
 /** blogs **/
 
-.container-blogs {
-  background: white;
+.blog {
+  width: 100%;
+  display: block;
+}
+
+.blog .blog-img {
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+}
+
+.blog .blog-subject {
   text-align: center;
+  padding: 20px 0 20px 0;
 }
 
 /** footer **/
 
 .footer {
   text-align: center;
+  padding-top: 15;
+  font-size: 2rem;
+  color: black;
+  background: white;
+  border-top: #000 solid 2px;
+  border-bottom: #000 solid 2px;
 }
