@@ -4,6 +4,10 @@ body {
   background: #d3d3d3;
 }
 
+.container {
+  background: white;
+}
+
 /** navigation bar **/
 
 .navbar {
