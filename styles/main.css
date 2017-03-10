@@ -97,11 +97,20 @@ body {
   padding-top: 20px;
 }
 
+.wireframe {
+  width: 100%;
+}
+
 .blog-subject {
   text-align: center;
   font-size: 2.5rem;
   padding: 10px 0 10px 0;
   color: black;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 /** footer **/
