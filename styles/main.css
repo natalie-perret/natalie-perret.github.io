@@ -68,17 +68,19 @@ body {
 
 .header {
   background: white;
-  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .title {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
+  margin: 0;
 }
 
 .journey {
   font-size: 1.5rem;
+  padding-left: 10px;
 }
 
 /** blogs **/
@@ -94,11 +96,14 @@ body {
   width: 350px; height: 200px;
   display: block;
   align: center;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-left: 37px;
 }
 
 .wireframe {
-  width: 100%;
+  width: 150px; height: 250px; max-width: 100%;
+  margin-left: 0;
+  padding-left: 25px;
 }
 
 .blog-subject {
@@ -111,6 +116,11 @@ body {
 .subtitle {
   text-align: center;
   font-size: 2.5rem;
+}
+
+.blog-text {
+  font-size: 1.5rem;
+  padding-left: 12px;
 }
 
 /** footer **/
