@@ -58,6 +58,11 @@ body {
   display: block;
 }
 
+.banner-about {
+  width: 100%;
+  display: block;
+}
+
 .banner-blog {
   width: 100%;
   height: 200px;
@@ -78,6 +83,14 @@ body {
   margin: 0;
 }
 
+.hello {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
 .journey {
   font-size: 1.5rem;
   padding-left: 10px;
@@ -86,14 +99,14 @@ body {
 /** blogs **/
 
 .blog a {
-  width: 100%;
+  max-width: 100%;
   display: block;
   background: white;
   text-decoration: none;
 }
 
 .blog-img {
-  width: 350px; height: 200px;
+  width: 350px; height: 200px; max-width: 80%;
   display: block;
   align: center;
   padding-top: 10px;
