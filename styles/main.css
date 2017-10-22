@@ -4,6 +4,11 @@ body {
   background: #d3d3d3;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .container {
   background: white;
 }
