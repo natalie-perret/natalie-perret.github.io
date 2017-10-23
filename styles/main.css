@@ -8,10 +8,10 @@ a {
   cursor: pointer;
 }
 
-.row {
+/*.row {
   display: flex;
   align-items: center;
-}
+}*/
 
 /** banner **/
 
@@ -21,24 +21,25 @@ a {
 }
 
 /** header intro **/
-.header {
+.name {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  color: #555;
+  /*color: #555;*/
   width: 100%;
   text-align: center;
   margin: 0;
   padding: 4% 0%;
 }
 
-.header-links {
+.contact-links {
   padding: 2vh 0vh;
   margin: auto;
-  height: 100%
+  height: 100%;
+  text-align: center;
 }
 
-.header-links img {
+.contact-links img {
   padding: 2vh;
   height: 5vh;
 }
@@ -54,6 +55,17 @@ a {
   padding: 5vh 10vh;
   margin: auto;
   width: 80%;
+}
+
+.portfolio-title {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /*color: #555;*/
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 4% 0%;
 }
 
 .portfolio-img {
